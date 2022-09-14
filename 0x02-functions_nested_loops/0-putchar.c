@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - print putchar, followed by new line
- * Return: 0
+ * main - print putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -15,6 +15,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
