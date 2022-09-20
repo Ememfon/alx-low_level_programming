@@ -2,17 +2,21 @@
 
 /**
  * _puts - prints a string, followed by a new line
- * @str: string to print
+ * @str: A pointer to an int that will be changed
  *
  * Return: void
  */
 
 void _puts(char *str)
 {
-	int i;
+	char *c;
+	int m;
 
-	for (i = 0; str[i] != '\0'; i++)
-		_putchar(str[i]);
+	c = str;
 
+	for (m = 0; c[m]; m++)
+	{
+		_putchar (c[m]);
+	}
 	_putchar('\n');
 }
